@@ -15,7 +15,7 @@ output "StringDataType" {
 }
 
 variable "SshPort" {
-  type = list(number)
+  type = list
 }
 
 output "ListDataType" {
@@ -26,7 +26,7 @@ output "ListDataType" {
 }
 
 variable "httpPort" {
-  type = map(number)
+  type = map
 }
 
 output "MapDataType" {
