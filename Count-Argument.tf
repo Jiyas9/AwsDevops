@@ -12,7 +12,7 @@ resource "aws_instance" "MyEC2" {
   count = 5
 
   tags = {
-    name = "Jiya-${count.index}"
+    name = "Jiya"
   }
 }
 
